@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+}
+main{
+    background-color: #FFBB00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    width: 340px;
+    border-radius: 25px;
+    border: 1px solid black;
+    height: 500px;
+}
+main > h1 {
+    border-bottom: 3px solid black;
+    width: 100%;
+    text-align: center;
+}
+.caixa {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+#i-peso {
+    margin-left: 14px;
+}
+#botao {
+    width: 220px;
+    height: 35px;
+    color: #FFBB00;
+    background-color: black;
+    margin-bottom: 25px;
+}
+.resposta{
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    box-shadow: 4px 4px 1px #7a5e1c,-4px -4px 1px #8b6b20;
+    border-radius: 5px;
+    color: #C49A33;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
